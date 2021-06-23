@@ -1,0 +1,76 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin:10% ; 
+}
+.containerDoctor{
+    width: 30%;  
+    height: 30%;  
+    text-align: center;  
+    margin: 10px;
+
+    align-items: center;
+    float:left ; 
+
+    font-family:Georgia, 'Times New Roman', Times, serif ;   
+}
+.containerPatient{
+    width: 30%;  
+    height: 30%;  
+    text-align: center;  
+    margin: 10px;
+    align-items: center;
+    float:left ; 
+    font-family:Georgia, 'Times New Roman', Times, serif  ;   
+}
+.image_big{
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px ;
+    cursor:pointer;
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 50%;
+    max-width:100%; 
+    width: 100%;
+}
+.image{
+
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px ;
+    height: 100%;
+    max-width:100%; 
+    cursor:pointer;
+    width: 100%;
+}
+.image_big .middle {
+    transition: .5s ease;
+    opacity: 0;
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .image_big .text {
+    background-color: transparent;
+    color: white ; 
+    font-size: 20px;
+    text-align: center;
+
+  }  
+  .image_big:hover .image {
+    filter: grayscale(80%);
+
+  }
+  
+  .image_big:hover .middle {
+    opacity: 1;
+    cursor:pointer;
+  }

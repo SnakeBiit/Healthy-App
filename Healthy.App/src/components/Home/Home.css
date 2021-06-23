@@ -1,0 +1,71 @@
+textarea {
+    resize: none !important;
+}
+
+.modalFixing {
+    height: auto !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.customColumn {
+    margin: 10px;
+}
+
+.imageCard {
+    margin-bottom: 0 !important;
+}
+
+.customCard {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.cardBtn {
+    padding-right: 10px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.containerItem {
+    margin: 0 5px;
+}
+
+.cardDoctor {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    height: 100px;
+}
+
+.cardContent {
+    border: none !important;
+}
+
+.extra {
+    border: none !important;
+}
+
+.cardDoctorName {
+    max-width: 50% !important;
+    width: 100% !important;
+}
+
+.cardDoctorContainer {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.cardPatientContainer {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}

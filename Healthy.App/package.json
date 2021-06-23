@@ -1,0 +1,58 @@
+{
+  "name": "photo-album",
+  "description": "App to manage favorites photos from internet as albums.",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Arturo De la Garza",
+    "url": "https://twitter.com/agzertuche"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "axios": "^0.21.1",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.0.1",
+    "fbjs": "^0.8.16",
+    "jest-enzyme": "^7.1.2",
+    "js-cookie": "^2.2.1",
+    "moxios": "^0.4.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.14.0",
+    "react-country-region-selector": "^3.0.2",
+    "react-dom": "^16.14.0",
+    "react-gender-input": "^1.0.2",
+    "react-images": "^0.5.11",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-enzyme-context": "^1.2.0",
+    "react-scripts": "1.0.14",
+    "react-select": "^4.3.0",
+    "reactstrap": "^8.9.0",
+    "semantic-ui-calendar-react": "^0.15.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "simple-react-validator": "^1.6.0",
+    "sinon": "^11.0.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "eslint": "^4.9.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
+    "react-test-renderer": "^16.0.0",
+    "jest-each": "^26.6.2",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

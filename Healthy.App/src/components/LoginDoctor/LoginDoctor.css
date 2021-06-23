@@ -1,0 +1,25 @@
+.containerLoginDoc {
+  max-width: 800px;
+  margin-top: 100px;
+}
+
+.formColumnLoginDoc {
+  align-self: center;
+}
+
+.loginDocBtn button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.linkBtns button {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+.linksContainer {
+  padding: 0;
+}
